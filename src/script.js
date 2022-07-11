@@ -138,7 +138,6 @@ function displayWeather(event) {
   let city = document.querySelector("#search-input").value;
   searchPlace(city);
 }
-
 function searchLocation(position) {
   let apiKey = "97852d4a29a006cb23ee815273ca6a59";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
