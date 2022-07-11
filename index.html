@@ -20,6 +20,14 @@
     <div class="weather-app">
         <div class="col-">
             <form id="form">
+                <div <button>
+                    <form class="current_city">
+                        <input type="submit" value="Current location" class="form-control btn btn-primary shadow-sm"
+                            id="current_city" />
+                    </form>
+                    </button>
+                </div>
+                <br />
                 <div class="row">
                     <div class="col-8">
                         <input id="search-input" type="text" class="form-control" aria-describedby="Enter Location"
@@ -36,13 +44,12 @@
                 <div class="col-6">
                     <h2 id="city"></h2>
                     <h3 id="description"></h3>
-                    <img src="" alt="Clear" id="icon" class="float-left" />
-                    <h5 class="current-time-date"></h5>
-                    <h2><span class="temp" id="temp"></span>°C</h2>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="d-flex weather-temperature">
-                                <img src="" alt="Clear" id="icon" class="float-left" />
+                    <div class="d-flex weather-temperature">
+                        <img src="" alt="Clear" id="icon" class="float-left" />
+                        <h5 class="current-time-date"></h5>
+                        <h2><span class="temp" id="temp"></span>°C</h2>
+                        <div class="row">
+                            <div class="col-6">
                                 <div class="float-left"> <strong id="temperature"></strong><span class="units"><a
                                             href="#" id="celsius-link" class="active">°C</a> | <a href="#"
                                             id="fahrenheit-link">°F</a></span>
